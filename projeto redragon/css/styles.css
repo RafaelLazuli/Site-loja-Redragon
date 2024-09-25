@@ -1,0 +1,199 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+:root {
+    --cor-letras: #FFFFFFFF;
+    --cor-secundaria: #c0c0c0;
+    --botoes: #167bf7;
+    --cor-terciaria: #00030c;
+    --font-principal: 'Inter'
+    
+}
+body{
+
+    background-image: url("../img/qualidade.jpg"); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+    color: var(--cor-letras);
+    font-family: var(--font-principal);
+    font-size: 17px;
+    font-weight: 400;
+    
+    
+}
+.container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 80vh;
+    justify-items: center;
+}
+.global{
+    margin: auto;
+    justify-content: center;
+    width: 70%;
+}
+.fundo{
+    background-size: 50% 80%;
+    margin: 0em 4em 0em 4em;
+    background-image: url("../img/teclado.jpg");
+    background-repeat: no-repeat;
+    background-position: right;   
+}
+.dragon{
+    max-width: 100%;
+    margin: 1em 0em 2em 0em;
+}
+.botao{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 1em;
+    border: 2px solid lightcyan
+}
+.botao:hover{
+    color: red;
+}
+.botao:active{
+    background-color: red;
+    color: white;
+}
+.botao_2{
+    background-color: transparent;
+    border: 2px solid lightcyan;
+}
+.titulo{
+    font-size: 3vh;
+    text-align: center;
+}
+.aviso{
+    font-size: 12px;
+    color: var(--cor-secundaria);
+    text-align: center;
+}
+.monitor_imagem{
+    max-width: 80vh;
+}
+.contanier_descrição{
+    
+    margin: 10vh;
+    
+}
+.secundario{
+    align-items: center;
+    margin-bottom: 0.2em;
+    margin: 0em 4em 0em 4em;
+}
+.titulo_descrição{
+    font-size: 3vh;
+    margin-bottom: 0.2em;
+}
+.aviso_descrição{
+    font-size: 2vh;
+    color: var(--cor-secundaria);
+    text-align: auto;
+    
+}
+.imagem2_0{
+    max-width: 80vh;
+}
+.botao_3{
+    display: inline-block;
+    margin-top: 1.5vh;
+}
+.dispositivos{
+    text-align: center;
+}
+.caixas{
+    display: flex;
+    justify-content: center;
+    margin: 5em 0;
+}
+
+.titulo_dispositivo{
+    font-size: 40px;
+}
+.logo{
+    max-width: 15%;
+    
+}
+.baixo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.lista_de_link{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.footer_lista{
+    list-style: none;
+    justify-items: center;
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    margin: 0em 0em 2em 0em;
+    
+}
+
+.baixo{
+    background-color: black;
+    
+}
+.letras_baixo{
+    text-decoration-line: none;
+    color: white;
+    
+}
+
+.lista_de_link a:hover{
+    color: red;
+}
+.lista_de_link a:active{
+    color: blue
+}
+.paragrafo_rodapé{
+    margin: 2% 0% 3% 0%;
+    text-decoration-line: none;
+    color: #6c25d9;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    border: 2px solid lightcyan;
+    border-radius: 5px;
+}
+.paragrafo_rodapé:hover{
+    color: red;
+}
+.paragrafo_rodapé:active{
+    background-color: red;
+    color: white;}
+
+
+.minha_rede{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin: 0% 0% 2% 0%;
+    display: flex;
+}
+.controle_icon{
+    margin: 0px 5px;
+}
+.icon{
+    height: 3vh;
+    width: 3vh;
+
+}
